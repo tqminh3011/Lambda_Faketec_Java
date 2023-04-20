@@ -28,7 +28,7 @@ public class Handler implements RequestHandler<Map<String,String>, Void>{
 
     rekognitionClient = RekognitionAsyncClient.builder()
             .credentialsProvider(DefaultCredentialsProvider.create())
-            .region(Region.EU_WEST_1)
+            .region(Region.US_EAST_1)
             .build();
 
     try {
